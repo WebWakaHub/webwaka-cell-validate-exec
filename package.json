@@ -16,7 +16,10 @@
     "security-trust"
   ],
   "license": "UNLICENSED",
-  "dependencies": {},
+  "dependencies": {
+    "@webwaka/organelle-scheduler-executor": "workspace:*",
+    "@webwaka/organelle-validation-engine": "workspace:*"
+  },
   "devDependencies": {
     "typescript": "^5.0.0",
     "jest": "^29.0.0",
